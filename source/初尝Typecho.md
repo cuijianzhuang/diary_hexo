@@ -254,8 +254,8 @@ blog.ourfor.top:443 {
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+<script src="//cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
 <div class="aplayer"
     data-id="4220599045"
@@ -263,7 +263,7 @@ blog.ourfor.top:443 {
     data-type="playlist">
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
 
 
 
