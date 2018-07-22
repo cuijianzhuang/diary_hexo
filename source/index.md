@@ -1,5 +1,5 @@
 ---
-title: 介绍
+title: 摘要
 description: Diary - 一个疯子的生活小记
 date: 2018-07-22 09:16:21
 tags: [github,hexo,gitlab]
