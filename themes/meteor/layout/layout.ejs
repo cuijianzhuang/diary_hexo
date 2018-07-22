@@ -47,13 +47,6 @@
     <% } else { %>
       <link rel="stylesheet" href="<%= url_for('/style/style.css', { relative: true }) %>">
     <% } %>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-3540467103914375",
-        enable_page_level_ads: true
-      });
-    </script>
     
     <script src='//unpkg.com/hanabi' ></script>
   </head>
@@ -65,8 +58,8 @@
       // Used by the main.js script below.
       docsConfigRoot = '<%- config.root %>';
     </script>
-    <script src="<%= url_for('/script/main.js', { relative: true }) %>"></script>
-    <script src="<%= url_for('/script/highlight.js', { relative: true }) %>"></script>
+    <script src="<%= url_for('//p923bw9fi.bkt.clouddn.com//meteor/js/main.js', { relative: true }) %>"></script>
+    <script src="<%= url_for('//p923bw9fi.bkt.clouddn.com//meteor/js/highlight.js', { relative: true }) %>"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
 
