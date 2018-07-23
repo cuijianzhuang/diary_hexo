@@ -46,18 +46,25 @@ ad:
   enable: false
 
 sidebar:
-  null:
+  主页:
     - index
     - 美文
     - 阅读
-  Config:
+  互联网:
     - hexo-github-coding搭建个人博客
-    - 太极拳好难
-    - 小说还是得多看
-    - 暑假规划
-  Other:
-    - 读《红楼梦》有感
     - 初尝Typecho
+    - 太极拳好难
+    - 暑假规划
+  阅读:
+    - 读《红楼梦》有感
+    - 小说还是得多看
+  Life:
+    - 相册
+    - 回忆
+    - 游戏
+    - 鸡汤
+  其他:
+    - 留言
 
 
 valine:
