@@ -42,6 +42,35 @@
             
         </style>
 
+    <style type="text/css">
+          blockquote {
+              margin: 0;
+              padding: 0;
+          }
+
+          blockquote {
+              padding: 13px 13px 21px 15px;
+              margin-bottom: 18px;
+              font-family:georgia,serif;
+              font-style: italic;
+          }
+          blockquote:before {
+              content:"\201C";
+              font-size:60px;
+              margin-left:-30px;
+              font-family:georgia,serif;
+              color:#990073;
+          }
+          blockquote p {
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 18px;
+              margin-bottom: 0;
+              font-style: italic;
+          }
+          
+          </style>
+
 
     <div class="nav-group right">
       <div class="nav-item ">
@@ -105,13 +134,26 @@
 
       <div class="content-wrapper">
         <div class="document-formatting">
+          <!--fix table -->
           <%- page.content %>
+
+
+          <%- page.content.replace(/<p>}<\/p>/g, '</div>')
+                    .replace(/<p>@([\w-]+){<\/p>/g, function(match, $1){
+                        return '<div class="'+ $1 +'">'
+             }) %>
+
+          <%
+                page.content = page.content.replace(/<table>(.+)<\/table>/, function(match, $1) {
+                   $1 = $1.replace(/<br>/g, '');
+                   return `<table>${$1}</table>`;
+                });            %>
+          <!--fix table -->
         </div>
 
-        <% if(theme.ad && theme.ad.enable) { %>
-          <div class="custom-recommend"></div>
-          <script src="<%= url_for('/script/recommend.js', { relative: true }) %>"></script>  
-        <% } %>
+        
+
+
       
         <div class="pagination">
           <div class="content-wrapper">
