@@ -133,22 +133,20 @@
       </div>
 
       <div class="content-wrapper">
+
         <div class="document-formatting">
           <!--fix table -->
           <%- page.content %>
 
-
-          <%- page.content.replace(/<p>}<\/p>/g, '</div>')
-                    .replace(/<p>@([\w-]+){<\/p>/g, function(match, $1){
-                        return '<div class="'+ $1 +'">'
-             }) %>
 
           <%
                 page.content = page.content.replace(/<table>(.+)<\/table>/, function(match, $1) {
                    $1 = $1.replace(/<br>/g, '');
                    return `<table>${$1}</table>`;
                 });            %>
+
           <!--fix table -->
+
         </div>
 
         

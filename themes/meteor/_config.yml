@@ -48,8 +48,6 @@ ad:
 sidebar:
   主页:
     - index
-    - 美文
-    - 阅读
   互联网:
     - hexo-github-coding搭建个人博客
     - 初尝Typecho
