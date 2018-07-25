@@ -42,7 +42,7 @@
             
         </style>
 
-    <style type="text/css">
+        <style type="text/css">
           blockquote {
               margin: 0;
               padding: 0;
@@ -71,7 +71,6 @@
           
           </style>
 
-        
 
 
     <div class="nav-group right">
@@ -118,7 +117,7 @@
                 <span><%- __('Edit') %></span>
               </a>
               <% if (page.discourseTopicId) { %>
-                <a class="btn tertiary small round lowercase" href="//forums.meteor.com/t/<%- page.discourseTopicId %>">
+                <a class="btn tertiary small round lowercase" href="https://forums.meteor.com/t/<%- page.discourseTopicId %>">
                   <span class="icon-comment"></span>
                   <span>Discuss</span>
                 </a>
@@ -135,9 +134,8 @@
       </div>
 
       <div class="content-wrapper">
-
         <div class="document-formatting">
-          <!--fix table 使用标签<table class="class">需要额外加代码，-->
+        <!--fix table 使用标签<table class="class">需要额外加代码，-->
           <%
                 page.content = page.content.replace(/<table>(.+)<\/table>/, function(match, $1) {
                    $1 = $1.replace(/<br>/g, '');
@@ -145,16 +143,8 @@
                 });            %>
           <!--fix table 注意要放在page.content前面。-->
           <%- page.content %>
-         
-
         </div>
-
-      </div>
-
-        
-
-
-      
+     
         <div class="pagination">
           <div class="content-wrapper">
             <%
@@ -231,15 +221,18 @@
     <footer class="footer_cust">
     
     <div class="footer_cust">
-        <p align=center>
-            <span>
+        
+        <p align="center">
+          <span>
                 Zip &copy; 2015 - 2018
             </span>
         </p>
+
         <p align=center>
-            <span align=center>
+            <span>
             Designed by <a href="https://github.com/ourfor">ourfor</a>
             </span>
         </p>
+
     </div>
 </footer>
