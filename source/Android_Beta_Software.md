@@ -8,7 +8,7 @@ date: 2018-07-27
 由于经常搞机，记录一下精品软件和常用的网站，这些软件不仅功能强大，而且UI美观简洁，个人强烈推荐，这些软件能够满足日常需要。
 
 <div align="center">
-<img src="i.loli.net/2018/07/27/5b5ada87c29b0.jpg" width=100% height=100%>
+<img src="//i.loli.net/2018/07/27/5b5ada87c29b0.jpg" width=100% height=100%>
 </div>
 
 ---
