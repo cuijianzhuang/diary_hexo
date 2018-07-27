@@ -8,7 +8,7 @@ date: 2018-07-27
 由于经常搞机，记录一下精品软件和常用的网站，这些软件不仅功能强大，而且UI美观简洁，个人强烈推荐，这些软件能够满足日常需要。
 
 <div align="center">
-<img src="http://pccyqyr77.bkt.clouddn.com/%E6%97%A5%E8%AE%B0/%E8%BD%AF%E4%BB%B6%E5%A4%87%E4%BB%BD/%E7%8C%AB%20%E7%9C%BC%E7%9D%9B%20%E5%A7%BF%E6%80%81%20%E5%8F%AF%E7%88%B1%E7%9A%84%E7%8C%AB5K%E5%A3%81%E7%BA%B8_%E5%BD%BC%E5%B2%B8%E5%9B%BE%E7%BD%91.jpg" width=100% height=100%>
+<img src="i.loli.net/2018/07/27/5b5ada87c29b0.jpg" width=100% height=100%>
 </div>
 
 ---

@@ -10,7 +10,7 @@ categories: "blog"
 
 ***有些🌸花不想在QQ空间和朋友圈说，所以就建了这个Repo来写日记。这个Repo不会同步到本地，如果同步到本地就失去了建立它的目的了，是的!日记也不会在电脑💻上面写，我不太喜欢开电脑，感觉效率低，容易分心，所以就手机上连接我的无线鼠标和键盘同时使用Google的牛逼输入法（谷歌这输入法是目前为止对OTG和蓝牙键盘支持最好的输入法，Google🍻就是牛逼）***
 
-<img src="//pccyqyr77.bkt.clouddn.com/%E6%97%A5%E8%AE%B0/%E6%91%98%E8%A6%81/%E9%9D%9E%E6%B4%B2%E9%9B%8F%E8%8F%8A%E8%8A%B15K%E5%9B%BE%E7%89%87_%E5%BD%BC%E5%B2%B8%E5%9B%BE%E7%BD%91.jpg" align=center width=100% height=100% alt="非洲雏菊花">
+<img src="//i.loli.net/2018/07/27/5b5ada85a6bbd.jpg" align=center width=100% height=100% alt="非洲雏菊花">
 
 - [x] MarkDown
 - [x] 无线鼠键
