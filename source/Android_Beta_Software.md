@@ -36,3 +36,64 @@ date: 2018-07-27
 - [GitHub](//github.com) 全球最大的开源社区，它会教你更多。
 - [Play 商店](//play.google.com)
 - [Google](//google.com)
+
+---
+
+# 常用命令
+
+- 隐藏“允许任何来源的应用”选项问题
+
+```bash
+sudo spctl --master-disable
+```
+
+- 笔记本开启插入电源提示音
+
+```bash
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
+
+```
+
+- MacOS系统下导出man手册内容
+
+```bash
+man log | col -b > ~/Desktop/log_manual.txt
+```
+
+- macOS终端教你英语
+
+```bash
+say '单词'
+```
+
+- 终端地图
+
+```bash
+npm install mapscii
+```
+
+- 黑客帝国字节流
+
+```bash
+brew install cmatrix
+```
+
+- 美化单词
+
+```bash
+brew install toilet
+```
+
+- 蒸汽机开过
+
+```bash
+brew install sl
+```
+
+- 牛说
+
+```bash
+brew install Cowsay
+Cowsay 可以
+```
+
