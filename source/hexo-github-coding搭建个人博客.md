@@ -133,7 +133,7 @@ INFO  Catch you later
 
  
 
-<img src="//p923bw9fi.bkt.clouddn.com/git_bash.PNG">
+<img src="http://p923bw9fi.bkt.clouddn.com/git_bash.PNG">
 博客将会部署到本地，使用` 4000 ` 的端口，在浏览器中打开` http://localhost:4000/ ` 就可以查看博客了。自此我们的hexo就安装好了。
 
 ### 远程部署
@@ -159,9 +159,9 @@ ping file.ourfor.top  #这两个网站我放在同一个服务器上面的，所
 博客安装好了，我要怎样写文章呢？
 所以我们就有必要了解一下blog这个文件夹里面各个部分的作用了。
 
-![blog文件夹🏠](//p923bw9fi.bkt.clouddn.com/blog.png)
-![source文件夹📂](//p923bw9fi.bkt.clouddn.com/source.png)
-![themes文件夹😝](//p923bw9fi.bkt.clouddn.com/themes.png)
+![blog文件夹🏠](http://p923bw9fi.bkt.clouddn.com/blog.png)
+![source文件夹📂](http://p923bw9fi.bkt.clouddn.com/source.png)
+![themes文件夹😝](http://p923bw9fi.bkt.clouddn.com/themes.png)
 
 - 文章保存在` source/_posts `里面，是以` .md `结尾的文本文件，你可以用文本编辑器打开编辑它,不过我更推荐你用[Sublime Text 3](https://ourfor.top/2018/03/24/3/)，这个文本文件使用的是` MarkDown `这种轻量级的标记语法，同时兼容` HTML ` ，是***纯文本的***，不像` WordPress `和` PPT `那样，当然这是优点。
 
